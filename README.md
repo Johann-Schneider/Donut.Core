@@ -10,7 +10,7 @@ DonutCore is a free 1.21 Core with very useful features:
 
 Configuration (rewrite coming in the next update):
 
-´´´
+```
 # DonutCore Configuration
 # by Donut4GAMER
 # thanks for downloading the plugin <3
@@ -93,5 +93,5 @@ scoreboard:
     - "&7Discord:"
     - "&6https://discord.gg/Yarpy8tAqJ"
     - "&8----------------"
-´´´
+```
 Support If you need help or have a question/suggestion join my Discord.
