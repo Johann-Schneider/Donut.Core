@@ -94,4 +94,14 @@ scoreboard:
     - "&6https://discord.gg/Yarpy8tAqJ"
     - "&8----------------"
 ```
-Support If you need help or have a question/suggestion join my Discord.
+
+Commands and Usage:
+/donutcore help - Shows the help message
+/donutcore reload - Reloads the config
+/gmc [Player] - Set the gamemode to creative (of a player)
+/gmsp [Player] - Set the gamemode to spectator (of a player)
+/gms [Player] - Set the gamemode to survival (of a player)
+/gma [Player] - Set the gamemode to adventure (of a player)
+/gm <0/1/2/3|s/c/a/sp> [Player] - Set the gamemode (of a player)
+
+Support: If you need help or have a question/suggestion join my Discord.
