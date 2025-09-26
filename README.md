@@ -105,4 +105,4 @@ Commands and Usage:
 - /gm <0/1/2/3|s/c/a/sp> [Player] - Set the gamemode (of a player)
 
 Support: 
-If you need help or have a question/suggestion join my [Discord](https://dcs.gg/donutdev).
+If you need help or have a question/suggestion join my [Discord](https://dsc.gg/donutdev).
