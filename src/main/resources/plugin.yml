@@ -1,0 +1,24 @@
+name: DonutCore
+version: '1.0.0'
+main: de.donut4gamer.donutcore.Main
+api-version: '1.21'
+softdepend: ["PlaceholderAPI"]
+commands:
+  gm:
+    description: Set the gamemode of a player
+    usage: /<command> <0/1/2/3|s/c/a/sp> [Player]
+  gmc:
+    description: Switch to creative mode
+    usage: /<command> [Player]
+  gms:
+    description: Switch to survival mode
+    usage: /<command> [Player]
+  gma:
+    description: Switch to adventure mode
+    usage: /<command> [Player]
+  gmsp:
+    description: Switch to spectator mode
+    usage: /<command> [Player]
+  donutcore:
+    description: Maincommand for DonutCore
+    usage: /<command> <help|reload>
