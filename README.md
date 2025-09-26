@@ -104,4 +104,5 @@ Commands and Usage:
 - /gma [Player] - Set the gamemode to adventure (of a player)
 - /gm <0/1/2/3|s/c/a/sp> [Player] - Set the gamemode (of a player)
 
-Support: If you need help or have a question/suggestion join my Discord.
+Support: 
+If you need help or have a question/suggestion join my [Discord](https://dcs.gg/donutdev).
