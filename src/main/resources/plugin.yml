@@ -22,3 +22,6 @@ commands:
   donutcore:
     description: Maincommand for DonutCore
     usage: /<command> <help|reload>
+  ip:
+    description: Shows the IP of an user
+    usage: /ip <player>

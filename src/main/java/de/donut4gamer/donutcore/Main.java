@@ -2,6 +2,7 @@ package de.donut4gamer.donutcore;
 
 import de.donut4gamer.donutcore.commands.DonutCore;
 import de.donut4gamer.donutcore.commands.GameModeCommand;
+import de.donut4gamer.donutcore.commands.IpCommand;
 import de.donut4gamer.donutcore.listeners.ChatEmojis;
 import de.donut4gamer.donutcore.listeners.ScoreBoard;
 import de.donut4gamer.donutcore.listeners.TabList;
@@ -21,6 +22,7 @@ public final class Main extends JavaPlugin {
         getCommand("gma").setExecutor(new GameModeCommand(getConfig()));
         getCommand("gmsp").setExecutor(new GameModeCommand(getConfig()));
         getCommand("donutcore").setExecutor(new DonutCore(this));
+        getCommand("ip").setExecutor(new IpCommand(getConfig()));
 
         getServer().getPluginManager().registerEvents(new ScoreBoard(this), this);
         getServer().getPluginManager().registerEvents(new TabList(this), this);

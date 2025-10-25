@@ -81,3 +81,23 @@ scoreboard:
     - "&7Discord:"
     - "&6https://discord.gg/Yarpy8tAqJ"
     - "&8----------------"
+
+# here you can configure the ip command from DonutCore
+ip:
+  # configure the permissions for the /ip command
+  permissions:
+    # the permission users need to execute his command
+    view: "donutcore.ip.view"
+
+  # configure the messages for the /ip command
+  messages:
+    # message that appears when you execute the command as the console
+    no-player: "&6DonutCore &8| &cOnly players can execute this."
+    # message that appears when you do not have the permission you have set above
+    no-permission: "&6DonutCore &8| &cYou do not have the permission to do that."
+    # message that appears when you just type /ip, for example
+    usage: "&6DonutCore &8| &cUsage: /ip <player>"
+    # message that apears when you have executed the command and the player is offline
+    player-not-found: "&6DonutCore &8| &7The Player &6%target% &7is not online!"
+    # message that apears when you have executed the command and the player is online
+    show-ip: "&6DonutCore &8| &7The IP from &6%target% &7is: &6%ip%"
