@@ -24,6 +24,8 @@ public class DonutCore implements CommandExecutor {
             sender.sendMessage("§8========== §6DonutCore Help §8==========");
             sender.sendMessage("§6/donutcore help §8- §7Shows this help message");
             sender.sendMessage("§6/donutcore reload §8- §7Reloads the config");
+            sender.sendMessage("§6/ip [Player] §8- §7Get the IP from a player");
+            sender.sendMessage("§6/ping [Player] §8- §7See your or others ping");
             sender.sendMessage("§6/gmc [Player] §8- §7Set the gamemode to creative (of a player)");
             sender.sendMessage("§6/gma [Player] §8- §7Set the gamemode to adventure (of a player)");
             sender.sendMessage("§6/gms [Player] §8- §7Set the gamemode to survival (of a player)");

@@ -103,3 +103,28 @@ ip:
     player-not-found: "&6DonutCore &8| &7The Player &6%target% &7is not online!"
     # message that apears when you have executed the command and the player is online
     show-ip: "&6DonutCore &8| &7The IP from &6%target% &7is: &6%ip%"
+
+# here you can configure the ping command from DonutCore
+ping:
+  # configure the permissions for the /ping command
+  permissions:
+    # the permission users need to get their own ping
+    self: "donutcore.ping.self"
+    # the permission users need to get other players ping
+    others: "donutcore.ping.others"
+
+  # configure the messages for the /ping command
+  # use the placeholders %target% and %ping%
+  messages:
+    # message that appears when you execute the command as the console
+    no-player: "&6DonutCore &8| &cOnly players can execute this."
+    # message that appears when you do not have the permission you have set above
+    no-permission: "&6DonutCore &8| &cYou do not have the permission to do that."
+    # message that appears when you just type /ping, for example
+    usage: "&6DonutCore &8| &cUsage: /ping <player>"
+    # message that apears when you have executed the command and the player is offline
+    player-not-found: "&6DonutCore &8| &cThe Player &6%target% &cis not online!"
+    # message that apears when you have executed the command and got your own ping
+    self-ping: "&6DonutCore &8| &7Your ping is: &6%ping%ms"
+    # message that apears when you have executed the command and got your own ping
+    other-ping-sender: "&6DonutCore &8| &7The Player &6%target% &7has a ping of: &6%ping%ms"

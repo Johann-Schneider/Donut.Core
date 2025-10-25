@@ -25,3 +25,6 @@ commands:
   ip:
     description: Shows the IP of an user
     usage: /ip <player>
+  ping:
+    description: Shows the ping of an user
+    usage: /ping [player]
