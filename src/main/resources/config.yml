@@ -12,6 +12,7 @@ gamemode:
     gamemode-others: "donutcore.gamemode.others"
 
   # configure the messages for the /gm, /gmc, ... commands
+  # use the placeholders %gamemode%, %target% and %player%
   messages:
     # message that appears when you execute the command as the console
     no-player: "&6DonutCore &8| &cOnly players can execute this."
@@ -90,6 +91,7 @@ ip:
     view: "donutcore.ip.view"
 
   # configure the messages for the /ip command
+  # use the placeholders %target% and %ip%
   messages:
     # message that appears when you execute the command as the console
     no-player: "&6DonutCore &8| &cOnly players can execute this."
