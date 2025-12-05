@@ -1,0 +1,29 @@
+name: Build Plugin
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'   # oder 21, je nachdem was dein Plugin braucht
+
+      - name: Build with Maven
+        run: mvn -B package
+
+      - name: Upload Artifact (Jar)
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-jar
+          path: target/*.jar
