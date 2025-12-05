@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'   # oder 21, je nachdem was dein Plugin braucht
+          java-version: '21'
 
       - name: Build with Maven
         run: mvn -B package
